@@ -12,50 +12,6 @@ void badCharHeuristic( string str, int size,
 
 	for (i = 0; i < size; i++)
     badchar[(int) str[i]] = i;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 void search( string txt, string pat)
 {
 	int m = pat.size();
